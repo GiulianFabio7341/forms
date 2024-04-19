@@ -1,0 +1,93 @@
+div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+
+}
+button{
+    margin: 5px;
+    margin-left: 60px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 105%;
+    background-color: rgb(233, 196, 116);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+section h3{
+padding-left: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 200;
+}
+section a{
+ padding: 4px;
+}
+main{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(233, 196, 116);
+    height: 40px;
+width: 105%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+footer span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105%;
+    font-size: small;
+}
+
+@media(max-width:844px) {
+    body{
+        width: 115%;
+    }
+    footer{
+        margin-top: 200px;
+            width: 115%;
+    }
+
+    form{
+        margin-left: 25px;
+    }
+   
+}
